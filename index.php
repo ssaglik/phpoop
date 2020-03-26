@@ -39,7 +39,6 @@ abstract class banks implements bank {
 // Class definition for demonstration of the interfaces and abstract classes in this file.
 class story extends banks {
 
-    private $items = [];
     private $payments = [];
 
     public function __construct($banks = []) {
@@ -53,7 +52,6 @@ class story extends banks {
 
     public function start() {
         echo __METHOD__."()<br/>";
-        
         // generate 1000 random payments between 5TL - 3000TL 
         $p = 1;
         for ($p==1;$p<1001;$p++) {
