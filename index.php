@@ -67,7 +67,7 @@ class story extends banks {
     private function debug() {
         echo "<pre>";
         print_r($this->payments);
-        echo "<pre>";
+        echo "</pre>";
     }
 }
 
